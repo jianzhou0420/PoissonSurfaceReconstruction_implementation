@@ -101,7 +101,7 @@ def trilinear_interpolation_weights(nx, ny, nz, corner, P, hx, hy, hz, direction
     :param hy: size of cubes on y-axis
     :param hz: size of cubes on z-axis
     :param direction: direction
-    :return: after inserting values to the samples
+    :return: after inserting values to the samples.
     '''
     if direction == "x":  # center of the corner cube
         corner[0] += 0.5 * hx
